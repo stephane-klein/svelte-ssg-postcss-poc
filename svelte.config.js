@@ -10,17 +10,19 @@ const config = {
     preprocess: [
 		preprocess({
 			postcss: {
-		                plugins: [
-		                    postcssNormalize(),
-		                    postcssNested(),
-		                    autoprefixer()
-		                ]
-		            }
+                plugins: [
+                    postcssNormalize(),
+                    postcssNested(),
+                    autoprefixer()
+                ]
+            }
 		})
 	],
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+            pages: 'docs'
+        }),
         prerender: {
             default: true
         }
