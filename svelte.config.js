@@ -25,7 +25,7 @@ const config = {
             assets: 'build',
         }),
         paths: {
-            base: "/svelte-ssg-postcss-poc",
+            base: process.env.BASE_PATH || "/",
         },
         prerender: {
             default: true
