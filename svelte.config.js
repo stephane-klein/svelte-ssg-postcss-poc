@@ -21,7 +21,8 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-            pages: 'docs'
+            pages: 'build',
+            assets: 'build',
         }),
         prerender: {
             default: true
