@@ -9,7 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: yarn install
-      - run: BASE_PATH=svelte-ssg-postcss-poc yarn build
+      - run:  yarn build
+        env:
+          BASE_PATH: svelte-ssg-postcss-poc
       - run: touch build/.nojekyll
       - name: Deploy to GitHub Pages
         if: success()

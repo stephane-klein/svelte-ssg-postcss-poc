@@ -25,7 +25,7 @@ const config = {
             assets: 'build',
         }),
         paths: {
-            base: process.env.BASE_PATH || "/",
+            base: process.env.BASE_PATH || "",
         },
         prerender: {
             default: true
