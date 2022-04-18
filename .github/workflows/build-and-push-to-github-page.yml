@@ -3,6 +3,12 @@ on:
   push:
     branches:
       - main
+    paths:
+      - src/**
+      - static/**
+      - package.json
+      - yarn.lock
+      - svelte.config.js
 jobs:
   build-and-push-to-github-page:
     runs-on: ubuntu-latest
