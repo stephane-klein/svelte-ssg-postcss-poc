@@ -1,5 +1,14 @@
 # Svelte + SSG + PostCSS
 
+This is what the repository includes:
+
+- Svelte Kit with:
+  - [SSG](https://kit.svelte.dev/docs/appendix#ssg) mode enabled
+  - [PostCSS](https://postcss.org/) enabled
+- [GitHub Actions](./github/workflows/build-and-push-to-github-page.yml) to complite and publish website to Git Pages: https://stephane-klein.github.io/svelte-ssg-postcss-poc/
+
+## Getting started
+
 ```sh
 $ yarn install
 $ yarn run dev
