@@ -10,8 +10,8 @@ This is what the repository includes:
 ## Getting started
 
 ```sh
-$ yarn install
-$ yarn run dev
+$ pnpm install
+$ pnpm run dev
 ```
 
 Go to http://127.0.0.1:3000/
@@ -19,13 +19,13 @@ Go to http://127.0.0.1:3000/
 Build SSG site:
 
 ```
-$ yarn run build
+$ pnpm run build
 ```
 
 Browse SSG site:
 
 ```
-$ yarn preview
+$ pnpm run preview
 ```
 
 Go to http://127.0.0.1:3000/

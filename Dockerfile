@@ -1,9 +1,9 @@
 FROM node:16-alpine
-
+RUN npm install -g pnpm@7.8.0
 WORKDIR /app
 COPY . .
-RUN yarn install
-RUN yarn run build
+RUN pnpm install
+RUN pnpm run build
 
 FROM nginx:1.21
 
