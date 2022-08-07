@@ -2,4 +2,7 @@
 	import '../app.css';
 </script>
 
-<slot />
+<article>
+    <div class="box-red">box red</div>
+    <slot />
+</article>
