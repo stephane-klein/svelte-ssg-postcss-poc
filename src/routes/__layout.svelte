@@ -1,6 +1,4 @@
-<script>
-	import '../app.css';
-</script>
+<style src="../app.css"></style>
 
 <article>
     <div class="box-red">box red</div>
