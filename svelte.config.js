@@ -8,19 +8,19 @@ import autoprefixer from 'autoprefixer';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
     preprocess: [
-		preprocess({
-			postcss: {
+        preprocess({
+            postcss: {
                 plugins: [
                     postcssNormalize(),
                     postcssNested(),
                     autoprefixer()
                 ]
             }
-		})
-	],
+        })
+    ],
 
-	kit: {
-		adapter: adapter({
+    kit: {
+        adapter: adapter({
             pages: 'build',
             assets: 'build',
         }),
@@ -30,7 +30,7 @@ const config = {
         prerender: {
             default: true
         }
-	}
+    }
 };;
 
 export default config;
