@@ -11,5 +11,7 @@
     <div class="box-blue">box-blue</div>
 
     <div class="box-green">box-green</div>
+
+    <div class="box-yellow">box-yellow</div>
 </div>
 
