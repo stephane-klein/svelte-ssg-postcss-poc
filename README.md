@@ -7,6 +7,8 @@ This is what the repository includes:
   - [PostCSS](https://postcss.org/) enabled
 - [GitHub Actions](./github/workflows/build-and-push-to-github-page.yml) to complite and publish website to Git Pages: https://stephane-klein.github.io/svelte-ssg-postcss-poc/
 
+If you look for a project example with [`postcss-cli`](https://github.com/postcss/postcss-cli) configuration to build a `css` file aside SvelteKit, see [`3-config-css-output-filename`](https://github.com/stephane-klein/svelte-ssg-postcss-poc/tree/3-config-css-output-filename) branch content.
+
 ## Getting started
 
 ```sh
