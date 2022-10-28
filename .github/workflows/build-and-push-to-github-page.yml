@@ -7,15 +7,17 @@ on:
       - src/**
       - static/**
       - package.json
-      - yarn.lock
+      - pnpm-lock.yaml
       - svelte.config.js
+      - postcss.config.js
+      - vite.config.js
 jobs:
   build-and-push-to-github-page:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: yarn install
-      - run:  yarn build
+      - run: pnpm install
+      - run:  pnpm build
         env:
           BASE_PATH: /svelte-ssg-postcss-poc
       - run: touch build/.nojekyll
