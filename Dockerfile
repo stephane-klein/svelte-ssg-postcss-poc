@@ -1,5 +1,5 @@
 FROM node:16-alpine
-RUN npm install -g pnpm@7.8.0
+RUN npm install -g pnpm@7.9.5
 WORKDIR /app
 COPY . .
 RUN pnpm install
