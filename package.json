@@ -27,15 +27,11 @@
     "vite": "3.2.1"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.35.1",
-    "@typescript-eslint/parser": "5.35.1",
     "eslint": "8.26.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-svelte3": "4.0.0",
     "prettier": "2.7.1",
-    "prettier-plugin-svelte": "2.8.0",
-    "tslib": "2.4.0",
-    "typescript": "4.8.2"
+    "prettier-plugin-svelte": "2.8.0"
   },
   "peerDependencies": {
     "browserslist": ">=4.0.0"
